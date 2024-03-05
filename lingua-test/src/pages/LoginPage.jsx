@@ -9,8 +9,8 @@ export default function LoginPage() {
 
   return (
     <>
-      <div className='container min-h-full'>
-      <button className="btn" onClick={signInWithGoogle}>Login with Google</button>
+      <div className='h-screen flex items-center justify-center flex-col'>
+      <button className="btn bg-green-500" onClick={signInWithGoogle}>Login with Google</button>
     </div>
     </>
   )

@@ -1,11 +1,20 @@
 export default function LogCard () {
     return (
-    <div className="card w-96 bg-base-100 shadow-xl">
-        <div className="card-body">
-            <h2 className="card-title">Card title!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+    <div className="background-layer card w-96 shadow-xl flex flex-col">
+        <div className="top-part-container rounded-t-[1rem] h-[3.625rem] bg-green-500">
+            <div className="top-part-info flex flex-row justify-between">
+                <h1>Username</h1>
+                <span>Date</span>
+            </div>
+        </div>
+        <div className="bottom-part rounded-b-[1rem] h-[5.125rem] bg-white">
+            <div className="bottom-part-info">
+                <h1>Activity Name</h1>
+                <div className="activity-info flex justify-between">
+                    <span>Time</span>
+                    <span>Type</span>
+                    <span>Language</span>
+                </div>
             </div>
         </div>
     </div>
